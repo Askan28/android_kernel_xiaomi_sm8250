@@ -12,8 +12,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        device: [psyche, thyme, umi, munch, lmi, cmi, cas, apollo, alioth, elish, enuma, dagu, pipa]
-        ksu_enabled: [true, false]
+        device: [munch]
+        ksu_enabled: [true]
 
     name: Build ${{ matrix.device }} (${{ matrix.ksu_enabled && 'KSU' || 'NoKSU' }})
 

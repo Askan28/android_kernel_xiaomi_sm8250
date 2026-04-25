@@ -238,4 +238,7 @@ source "drivers/energy_model/Kconfig"
 source "drivers/xiaomi/Kconfig"
 
 source "drivers/rekernel/Kconfig"
+
+source "drivers/memkernel/Kconfig"
+
 endmenu

@@ -180,7 +180,7 @@ ssize_t readwrite_process_memory(
 
 		count += max_chunk;
 		size -= max_chunk;
-		buffer += max_chunk;
+		((char*)buffer) += max_chunk;
 		addr += max_chunk;
 	}
 	MM_READ_UNLOCK(mm);

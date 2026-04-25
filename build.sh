@@ -346,6 +346,7 @@ fi
 cp out/arch/arm64/boot/Image anykernel/kernels/miui/
 cp out/arch/arm64/boot/dtb anykernel/kernels/miui/
 cp out/arch/arm64/boot/dtbo.img anykernel/kernels/miui/
+cp out/drivers/memkernel/dikm_memk.ko anykernel/modules/system/lib/modules/
 
 echo "Build for MIUI finished."
 

@@ -173,6 +173,7 @@ fi
 cp out/arch/arm64/boot/Image anykernel/kernels/aosp/
 cp out/arch/arm64/boot/dtb anykernel/kernels/aosp/
 cp out/arch/arm64/boot/dtbo.img anykernel/kernels/aosp/
+cp out/drivers/memkernel/dikm_memk.ko anykernel/modules/system/lib/modules/
 
 cd anykernel 
 

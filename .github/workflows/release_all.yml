@@ -13,7 +13,7 @@ jobs:
       fail-fast: false
       matrix:
         device: [munch]
-        ksu_enabled: [true]
+        ksu_enabled: [true, false]
 
     name: Build ${{ matrix.device }} (${{ matrix.ksu_enabled && 'KSU' || 'NoKSU' }})
 
